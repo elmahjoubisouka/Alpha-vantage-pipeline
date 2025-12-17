@@ -1,0 +1,41 @@
+# Airflow
+airflow/logs/
+airflow/webserver_config.py
+airflow.cfg
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration sensible
+.env
+*.key
+*.pem
+config/secrets.yaml
+
+# Données locales
+data/
+*.db
+*.sqlite3
+
+# Notebooks temporaires
+.ipynb_checkpoints/
